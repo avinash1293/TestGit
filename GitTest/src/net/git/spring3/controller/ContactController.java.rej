@@ -1,0 +1,10 @@
+diff a/GitTest/src/net/git/spring3/controller/ContactController.java b/GitTest/src/net/git/spring3/controller/ContactController.java	(rejected hunks)
+@@ -18,7 +18,7 @@
+ 	public String addContact(@ModelAttribute("contact")
+ 							Contact contact, BindingResult result) {
+ 		
+-		System.out.println("First Name:" + contact.getFirstname() + 
++		System.out.println("First Name is:" + contact.getFirstname() + 
+ 					"Last Name:" + contact.getLastname());
+ 		
+ 		

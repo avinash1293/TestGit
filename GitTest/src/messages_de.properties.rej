@@ -1,0 +1,8 @@
+diff a/GitTest/src/messages_de.properties b/GitTest/src/messages_de.properties	(rejected hunks)
+@@ -8,5 +8,6 @@
+ label.menu=Men&#252;
+ lable.city=city
+ label.address=address
++
+ 
+ label.footer=&copy; ViralPatel.net

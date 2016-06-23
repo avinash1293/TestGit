@@ -18,7 +18,7 @@ public class ContactController {
 	public String addContact(@ModelAttribute("contact")
 							Contact contact, BindingResult result) {
 		
-		System.out.println("First Name is:" + contact.getFirstname() + 
+		System.out.println("First Name:" + contact.getFirstname() + 
 					"Last Name:" + contact.getLastname());
 		
 		
